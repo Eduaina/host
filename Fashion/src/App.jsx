@@ -26,7 +26,7 @@ import { AuthProvider, useAuth }  from "./context/AuthContext.jsx";
 import HomePage             from "./pages/marketing/HomePage.jsx";
 
 /* Auth pages */
-import LandingPage          from "./pages/landing/LandingPage.jsx";
+import LandingPage          from "./pages/Landing/LandingPage.jsx";
 import SignupPage           from "./pages/auth/SignupPage.jsx";
 import LoginPage            from "./pages/auth/LoginPage.jsx";
 import ForgotPasswordPage   from "./pages/auth/ForgotPasswordPage.jsx";
