@@ -48,7 +48,7 @@ export const allOrders = [
     deliveryDate: "2026-02-25",
     placedDate: "2026-02-10",
     status: "In Progress",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&q=80",
+    image: Fabric,
   },
   {
     id: "ORD-002",
@@ -60,7 +60,7 @@ export const allOrders = [
     deliveryDate: "2026-02-22",
     placedDate: "2026-02-05",
     status: "Assigned",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop&q=80",
+    image: Suit,
   },
   {
     id: "ORD-003",
@@ -72,7 +72,7 @@ export const allOrders = [
     deliveryDate: "2026-02-20",
     placedDate: "2026-02-01",
     status: "Delayed",
-    image: "https://images.unsplash.com/photo-1566479179817-c0e7b2c82fec?w=800&h=600&fit=crop&q=80",
+    image: Green,
   },
   {
     id: "ORD-004",
@@ -84,7 +84,7 @@ export const allOrders = [
     deliveryDate: "2026-03-01",
     placedDate: "2026-02-08",
     status: "In Progress",
-    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&h=600&fit=crop&q=80",
+    image: Gown,
   },
   {
     id: "ORD-005",
@@ -96,7 +96,7 @@ export const allOrders = [
     deliveryDate: "2026-02-18",
     placedDate: "2026-01-28",
     status: "Completed",
-    image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=800&h=600&fit=crop&q=80",
+    image: Kente,
   },
   {
     id: "ORD-006",
@@ -108,7 +108,7 @@ export const allOrders = [
     deliveryDate: "2026-02-28",
     placedDate: "2026-02-10",
     status: "Assigned",
-    image: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&h=600&fit=crop&q=80",
+    image: WhiteShirt,
   },
   {
     id: "ORD-007",
@@ -120,7 +120,7 @@ export const allOrders = [
     deliveryDate: "2026-03-08",
     placedDate: "2026-02-12",
     status: "In Progress",
-    image: "https://images.unsplash.com/photo-1594938298603-a5e0b68a1a73?w=800&h=600&fit=crop&q=80",
+    image: WeddingGown,
   },
 ];
 
