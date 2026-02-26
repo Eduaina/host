@@ -42,6 +42,8 @@ const PAGE_META = {
   "/artisan/clients/add": { title: "Clients",        subtitle: "6 clients"                  },
   "/artisan/network":     { title: "Artisan Network", subtitle: "Discover skilled artisans to collaborate on your designs." },
   "/artisan/coming-soon": { title: "Artisan Network", subtitle: "Discover skilled artisans to collaborate on your designs." },
+  "/artisan/notifications": { title: "Notifications", subtitle: "3 unread notifications" },
+  "/artisan/settings":      { title: "Settings",      subtitle: "Manage your account and preferences" },
 };
 
 export default function ArtisanLayout({ children }) {

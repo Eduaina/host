@@ -77,8 +77,14 @@ export function AuthProvider({ children }) {
     setUser(null);
   };
 
+  const updateProfile = (patch) => {
+    const updated = { ...user, ...patch };
+    saveUser(updated);
+    setUser(updated);
+  };
+
   return (
-    <AuthContext.Provider value={{ user, login, signup, logout, ROLE_ROUTES }}>
+    <AuthContext.Provider value={{ user, login, signup, logout, updateProfile, ROLE_ROUTES }}>
       {children}
     </AuthContext.Provider>
   );

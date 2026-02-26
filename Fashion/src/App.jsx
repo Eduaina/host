@@ -44,6 +44,8 @@ import AddClient     from "./pages/artisan/AddClients/AddClient.jsx";
 import ArtisanNetwork from "./pages/artisan/ArtisanNetwork/ArtisanNetwork.jsx";
 import ArtisanProfile from "./pages/artisan/ArtisanProfile/ArtisanProfile.jsx";
 import ComingSoon     from "./pages/artisan/ComingSoon/ComingSoon.jsx";
+import Notifications  from "./pages/artisan/Notifications/Notifications.jsx";
+import Settings       from "./pages/artisan/Settings/Settings.jsx";
 
 /* Client pages */
 import ClientDashboard from "./pages/client/Dashboard/ClientDashboard.jsx";
@@ -107,6 +109,8 @@ function AppRoutes() {
       <Route path="/artisan/network"      element={<ArtisanPage><ArtisanNetwork /></ArtisanPage>} />
       <Route path="/artisan/network/:id"  element={<ArtisanPage><ArtisanProfile /></ArtisanPage>} />
       <Route path="/artisan/coming-soon"  element={<ArtisanPage><ComingSoon /></ArtisanPage>} />
+      <Route path="/artisan/notifications" element={<ArtisanPage><Notifications /></ArtisanPage>} />
+      <Route path="/artisan/settings"      element={<ArtisanPage><Settings /></ArtisanPage>} />
 
       {/* ── Client portal ───────────────────────────────────── */}
       <Route path="/client/dashboard" element={
